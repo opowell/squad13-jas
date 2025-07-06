@@ -1,4 +1,4 @@
-onresize = () => {
+const onresize = () => {
     let windowWidth = innerWidth,
         windowHeight = innerHeight,
 

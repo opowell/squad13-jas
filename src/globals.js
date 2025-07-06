@@ -1,7 +1,14 @@
+const INPUT_MODE_KEYBOARD = 0
+const INPUT_MODE_TOUCH = 1
+
+function nomangle(x) {
+    return x
+}
 let can,
     ctx,
     G,
     lastFrame = 0,
+    SCREENSHOT,
     w = window,
     canvasPrototype = CanvasRenderingContext2D.prototype,
     CANVAS_WIDTH = 1600,

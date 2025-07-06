@@ -12,7 +12,7 @@ onload = () => {
     frame();
 }
 
-frame = () => {
+const frame = () => {
     const current = performance.now();
     const elapsed = (current - lastFrame) / 1000;
     lastFrame = current;
